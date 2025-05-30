@@ -1,6 +1,10 @@
 *{
-  font-family: "Product Sans";
+  font-family: "Google Sans";
   margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 .nav-bar{
   display: flex;
@@ -23,7 +27,7 @@
   color: rgba(0, 0, 255, 0.784);
   border-radius: 10px;
   padding: 5px 7px;
-  transition: background color 0.3 ease;
+  transition: all 0.3 ease;
 }
 .menu a:hover{
   background-color: rgb(0, 0, 192);
@@ -42,8 +46,8 @@
     width: 150px;
     justify-content: center;
     align-items: center;
-    top: 55px;
-    right: 90px;
+    top: 50px;
+    right: 10px;
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 15px;
@@ -58,6 +62,7 @@
     flex-direction: column;
   }
   .huburger{
+    margin-left: auto;
       display: block;
     }
 }
