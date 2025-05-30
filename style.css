@@ -92,7 +92,30 @@ html{
   background: rgb(255, 190, 255);
   color: darkblue;
   font-weight: 600;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   margin-top: 10px;
+}
+.contdisp{
+  margin-top: 10px;
+}
+.contopt{
+  display: flex;
+  gap: 15px;
+}
+.contact-item{
+  background-color: aqua;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 10px 0 10px 0;
+}
+.scroll{
+  background-color: darkblue;
+  color: lightblue;
+  padding: 10px;
+  border-radius: 15px;
 }
